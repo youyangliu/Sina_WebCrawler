@@ -1,12 +1,9 @@
 ## project info
 
-@author: youyangliu
+@author: Youyang Liu
 
 Thanks to @contributor: Frank Wang
 
-Thanks to @reviewer: abrahamlin, rayhu, xipengliu, zzjaswang, hoawang
-
-Thanks to @helper: trumpyu
 
 ## tutorial 
 
@@ -28,15 +25,18 @@ And it will return 5 types Item in json:
     AttitudeItem for Attitude searching
 
 
+*In this version, it already supports multiple query word at one time*
+
 For scrapy structure details, check scrapy documentation https://docs.scrapy.org/en/latest/
 
 To start,
 
-cd to WeiboCrawling folder and run command for help:
+cd to Sina_WebCrawler folder and run command for help:
 
 python run_spider.py -h
 
 it will show all details about arguments.
+
 
 
 
