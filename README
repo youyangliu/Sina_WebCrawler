@@ -25,7 +25,7 @@ And it will return 5 types Item in json:
     AttitudeItem for Attitude searching
 
 
-*In this version, it already supports multiple query word at one time*
+**In this version, it already supports multiple query word at one time**
 
 For scrapy structure details, check scrapy documentation https://docs.scrapy.org/en/latest/
 
@@ -43,7 +43,9 @@ it will show all details about arguments.
 ## description
 
 The data structure is saved as a dictionary that keys are defined in items.py file.
+
 KeywordItem eg:
+
 {'idstr': '3565971237113805',
  'query': '爱他美',
  'weibo_type': 'keyword',
@@ -119,6 +121,7 @@ KeywordItem eg:
            'weibo_position': 1}}
 
 CommentItem
+
 {'idstr': 4242197014445814,
  'mblog': {'created_at': '05-21',
            'id': 4242197014445814,
