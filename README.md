@@ -11,6 +11,7 @@ This project use scrapy structure to crawl Weibo
 and save data as json file in local path.
 
 Right now it support 5 searching mode:
+
     0 for Keyword searching
     1 for User searching
     2 for Comment searching
@@ -18,6 +19,7 @@ Right now it support 5 searching mode:
     4 for Attitude searching
 
 And it will return 5 types Item in json:
+
     KeywordItem for Keyword searching
     UserItem, BaikeItem for User searching
     CommentItem for Comment searching
@@ -46,10 +48,10 @@ The data structure is saved as a dictionary that keys are defined in items.py fi
 
 KeywordItem eg:
 
-{'idstr': '3565971237113805',
- 'query': '爱他美',
- 'weibo_type': 'keyword',
- 'mblog': {'attitudes_count': 0,
+    {'idstr': '3565971237113805',
+    'query': '爱他美',
+    'weibo_type': 'keyword',
+    'mblog': {'attitudes_count': 0,
            'bid': 'zrGddtQCN',
            'bmiddle_pic': 'http://ww2.sinaimg.cn/bmiddle/bd8134fcgw1e3lv8qzurdj.jpg',
            'can_edit': False,
@@ -122,8 +124,8 @@ KeywordItem eg:
 
 CommentItem
 
-{'idstr': 4242197014445814,
- 'mblog': {'created_at': '05-21',
+    {'idstr': 4242197014445814,
+    'mblog': {'created_at': '05-21',
            'id': 4242197014445814,
            'like_counts': 0,
            'liked': False,
