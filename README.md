@@ -33,9 +33,9 @@ For scrapy structure details, check scrapy documentation https://docs.scrapy.org
 
 To start,
 
-cd to Sina_WebCrawler folder and run command for help:
+**cd to Sina_WebCrawler folder and run command for help**:
 
-**python run_spider.py -h**
+    python run_spider.py -h
 
 it will show all details about arguments.
 
