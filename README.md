@@ -1,11 +1,11 @@
-## project info
+# project info
 
 @author: youyangliu
 
 Thanks to @contributor: Frank Wang
 
 
-## tutorial 
+# tutorial 
 
 This project use scrapy structure to crawl Weibo
 and save data as json file in local path.
@@ -33,14 +33,14 @@ To start,
 
 cd to Sina_WebCrawler folder and run command for help:
 
-python run_spider.py -h
+**python run_spider.py -h**
 
 it will show all details about arguments.
 
 
 
 
-## description
+# Example
 
 The data structure is saved as a dictionary that keys are defined in items.py file.
 
